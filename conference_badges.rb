@@ -21,7 +21,7 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |x|
-  binding.pry 
+  assign_rooms
 end 
 end 
   
