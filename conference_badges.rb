@@ -15,6 +15,8 @@ def assign_rooms(room_assignments)
   room_assignments.each_with_index do |room_assignments, index|
     puts "Hello, #{room_assignments}! You'll be assigned to room _____!" 
   end
+return assign_rooms
+end 
     
 
   
