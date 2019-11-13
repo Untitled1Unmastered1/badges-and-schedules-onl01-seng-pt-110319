@@ -11,6 +11,9 @@ return badges
 end 
 
 def assign_rooms(room_assignments)
-  return 
+  empty_rooms = []
+  room_assignments.each_with_index do |room_assignments, index|
+    
+    
 
   
