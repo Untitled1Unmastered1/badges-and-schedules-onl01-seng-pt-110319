@@ -13,7 +13,7 @@ end
 def assign_rooms(room_assignments)
   empty_rooms = []
   room_assignments.each_with_index do |room_assignments, index|
-    empty_rooms << puts "Hello, #{1}! You'll be assigned to room #{index}!"
+    empty_rooms << puts "Hello, #{room_assignments}! You'll be assigned to room #{1-7}!"
   end
   empty_rooms
 end 
