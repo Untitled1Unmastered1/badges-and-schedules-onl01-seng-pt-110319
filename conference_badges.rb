@@ -13,7 +13,7 @@ end
 def assign_rooms(room_assignments)
   empty_rooms = []
   room_assignments.each_with_index do |room_assignments, index|
-    assign_rooms(room_assignments)
+    empty_rooms << assign_rooms(room_assignments)
   end
   empty_rooms
 end 
